@@ -22,7 +22,7 @@ function findBestBuySellDays(prices = []) {
    const dayMin = indexMin + 1
    const dayMax = indexMax + 1
 
-   return dayMin < dayMax ? buy day ${dayMin} | sell day ${dayMax} : null
+   return dayMin < dayMax ? `buy: day ${dayMin}` | `sell: day ${dayMax}` : null
 }
 
 function findMax(numbers, max = -Infinity) {
